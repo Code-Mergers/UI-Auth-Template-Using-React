@@ -1,0 +1,378 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:100%;
+  font-family: sans-serif;
+}
+
+body {
+  animation-name: jamboani1;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-delay: 2.5s;
+}
+
+@keyframes jamboani1 {
+  0%{
+    opacity: 0;
+  }
+  60%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.header {
+  /* box-shadow: 3px 3px 5px 6px rgb(158, 155, 155); */
+  box-shadow: 0px 10px 5px 0px rgb(158, 155, 155);
+}
+
+
+@keyframes popping {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(20px); }
+}
+
+.Jumbotron {
+  margin: auto;
+  margin-top: 4rem;
+  background-image: url(https://source.unsplash.com/800x500);
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+  border-radius: 5px;
+  animation-name:popping;
+  font-family: sans-serif;
+  animation-duration: 4s;
+  /* animation-timing-function:ease-out; */
+  transform: scale(1);
+  transition: transform 2s ease;
+  box-shadow: 10px 10px 5px 0px rgb(158, 155, 155);
+  animation-iteration-count: infinite;
+  width: 80%;
+  height: auto;
+}
+
+.Jumbotron:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 5px 0px rgb(158, 155, 155);
+}
+
+.jumbo_transform {
+  background-color: #ffffff73;
+  padding: 25px;
+  transform: scale(1);
+  transition: transform 0.5s ;
+}
+
+.button_transform {
+  transform: scale(1);
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.253)!important;
+}
+
+.button_transform:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.8)!important;
+}
+
+.jumbo_transform:hover {
+  transform: scale(1.07);
+  background-color: #ffffffc4;
+  font-weight: bold;
+  color: black;
+} 
+
+#mytextnewuser {
+  padding-left: 5%;
+  text-align: left;
+}
+
+/*manipulae the container and not the cards to change their width*/
+.cards_together {
+  margin-top: 30px;
+  padding: 50px 120px;
+}  
+
+.individual_card {
+  padding-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.453)!important;
+}
+
+.card-body {
+    padding: 3rem 0 !important;
+}
+
+.card-text {
+  font-size: .9rem;
+}
+
+.overflow {
+  overflow:hidden;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.4);
+}
+
+.inputclass {
+  width: 45%; 
+}
+
+.inputlabel {
+  margin: auto;
+  padding: 0 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inputradio {
+  margin: auto;
+  font-size: 16px;
+}
+
+#inputtext {
+  box-shadow: none;
+  font-size: 16px;
+  border-right: white;
+  border-left: white;
+  border-top: white;
+  border-bottom-width: 1px;
+}
+
+#inputtext:hover {
+  border-bottom: blue;
+}
+
+#mybutton {
+  background-color: darkblue;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+#mylink {
+  font-size: 18px;
+}
+
+#mylogo {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#mytextjambo {
+  font-size: 16px;
+}
+
+#mytexth5 {
+  font-size: 20px;
+}
+
+#mytable {
+  width: 50%;
+}
+
+#mytable tr:hover {
+  background-color: #abf0ff;
+}
+
+#mytexth2 {
+  font-size: 36px;
+  padding: 10px 0;
+}
+
+#feedbackstyletext {
+  border-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#feedbackstylebutton {
+  width: 25%;
+  border-radius: 8px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+@media (max-width: 1200px) {
+
+  .Jumbotron{
+    margin-top: 4rem;
+    width: 85%;
+  }
+  .cards_together{
+    width: 100%;
+    margin-top: 60px;
+    padding: 10px;
+  }
+  .jumbo_transform{
+    background-color: #ffffffc4;
+  }
+  .inputclass {
+    width: 60%; 
+  }
+  .inputlabel {
+    padding: 0 5px;
+    font-size: 16px;
+  }
+  .inputradio {
+    font-size: 16px;
+  }
+  #inputtext {
+    font-size: 14px;
+  }
+  #mybutton {
+    font-size: 16px;
+  }
+  #mylink {
+    font-size: 16px;
+  }
+  #mytexth5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Jumbotron{
+    margin-top: 4rem;
+    width: 95%;
+  }
+  .inputclass {
+    width: 95%; 
+  }
+  #mytextjambo {
+    font-size: 12px;
+  }
+  .jumbo_transform{
+    font-size: 20px;
+  } 
+  #mytable {
+    width: 90%;
+  }
+  #mytextnewuser {
+    padding-left: 2%;
+  }
+  #mytexth2 {
+    font-size: 24px;
+  }
+}
+/*footer*/
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #04166e;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+footer a:hover {
+  text-decoration: underline;
+  color:white;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+
+.container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+  text-align:left;
+}
+/* Footer main  */
+footer Form {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Footer social */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.2rem;
+  font-size: 1.25rem;
+}
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #040e40;
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list  {
+    display: flex;
+    justify-content: space-between;
+}
+/*social media buttons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
