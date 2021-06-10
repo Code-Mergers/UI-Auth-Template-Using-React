@@ -47,10 +47,9 @@ class SignUpForm extends Component {
     auth
       .doCreateUserWithEmailAndPassword(email, passwordOne)
         .then(authUser => {
-          const hist = "newuser";
           db.doCreateUser(authUser.user.uid, name, email )
             .then(() => {
-              alert("Welcome " + name + "!\nwe have succesfully created your account.");
+              alert("Welcome " + name + "!\nwe have successfully created your account.");
             })
             .then(()=> {
               auth.doSignInWithEmailAndPassword(email, passwordOne);

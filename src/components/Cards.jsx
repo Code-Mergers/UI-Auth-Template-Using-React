@@ -10,7 +10,7 @@ class Cards extends Component{
                     {cardDetails.map( oneCard => 
                         <div className="col-md-4 individual_card" >
                             <Card   key={oneCard.id}
-                                    image={"https://source.unsplash.com/800x500"}
+                                    image={new URL("https://source.unsplash.com/800x500")}
                                     title={oneCard.title}
                                     text={oneCard.text}
                                     url={oneCard.url}

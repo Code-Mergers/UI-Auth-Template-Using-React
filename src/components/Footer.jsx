@@ -49,6 +49,7 @@ class Footer extends Component {
                         <h2 class="ft-title">CONTACT</h2>
                         <ul>
                             <li><a href="#">Help</a></li>
+                            <li><a href="#">Log an issue</a></li>
                             <li><a href="#">Sales</a></li>
                             <li><a href="#">Advertise</a></li>
                         </ul>
