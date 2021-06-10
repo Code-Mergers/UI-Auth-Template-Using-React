@@ -1,13 +1,14 @@
 const config = {
-    //Provide your firebase configuration object containing keys and identifiers for your app
-    apiKey: "AIzaSyCoJyuxxHPTscY5yNxfPCcITob73LYWyzM",
-    authDomain: "login-test-851ce.firebaseapp.com",
-    databaseURL: "https://login-test-851ce-default-rtdb.firebaseio.com",
-    projectId: "login-test-851ce",
-    storageBucket: "login-test-851ce.appspot.com",
-    messagingSenderId: "945093582532",
-    appId: "1:945093582532:web:b01a0ffdf36ad41242f391",
-    measurementId: "G-H8HQ9MNVKZ"
+    //     apiKey: "API_KEY",
+    //     authDomain: "PROJECT_ID.firebaseapp.com",
+    //     databaseURL: "https://PROJECT_ID.firebaseio.com",
+    //     projectId: "PROJECT_ID",
+    //     storageBucket: "PROJECT_ID.appspot.com",
+    //     messagingSenderId: "SENDER_ID",
+    //     appId: "APP_ID",
+    //     measurementId: "G-MEASUREMENT_ID",
+    
+    //     Paste your firebase configuration object containing keys and identifiers for your app here
 };
 
 export default config;
