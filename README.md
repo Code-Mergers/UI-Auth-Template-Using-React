@@ -12,7 +12,14 @@
 - Make sure that you have node installed in your computer or [Install Node](https://nodejs.org/en/)
 - Inside the local directory here you have downloaded this repo, open your terminal
 - Run this command to download all dependencies for this project
-  - `npm i` or `npm install`
+  - 
+  ```sh 
+  npm i 
+  ```
+  or 
+  ```sh 
+  npm install
+  ```
 - To use Firebase Authentication, you have to provide your firebase configuration object containing keys and identifiers for your app
   - [Go to firebase](https://firebase.google.com/) and signin
   - [Go to firebase console](https://console.firebase.google.com/) to create your project
@@ -33,10 +40,16 @@
   - Paste your config object in `env.js` file, present in `/src/firebase/`
 - Now we can run this site locally 
 - To see the site in your localhost run this command in your terminal
-  - `npm start`
+  - ```sh npm start
 
 ## Deployement
 - [See deployed site](https://react-ui-auth-template-code-mergers.netlify.app/)
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+[Send mail](mailto:sayan.bhatta2017@gmail.com) to code mergers
 
 
 ### Hope this will be helpful for your next project
