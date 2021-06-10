@@ -19,7 +19,7 @@
   - Create a web app and read about [firebase web app](https://firebase.google.com/docs/web/setup)
   - You will get your firebase configuration object containing keys and identifiers in project settings section
   - In SDK setup and configuration section copy the config, looks like this  
-    ```
+    ```JS
         var firebaseConfig = {
         apiKey: "API_KEY",
         authDomain: "PROJECT_ID.firebaseapp.com",
