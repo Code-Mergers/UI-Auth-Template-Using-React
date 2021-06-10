@@ -27,7 +27,7 @@
   - You will get your firebase configuration object containing keys and identifiers in project settings section
   - In SDK setup and configuration section copy the config, looks like this  
     ```JS
-        var config = {
+    var config = {
         apiKey: "API_KEY",
         authDomain: "PROJECT_ID.firebaseapp.com",
         databaseURL: "https://PROJECT_ID.firebaseio.com",
