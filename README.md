@@ -46,10 +46,10 @@
 - [See deployed site](https://react-ui-auth-template-code-mergers.netlify.app/)
 
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+- Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-[Send mail](mailto:sayan.bhatta2017@gmail.com) to code mergers
+- [Send mail](mailto:sayan.bhatta2017@gmail.com) to code mergers
 
 
 ### Hope this will be helpful for your next project
