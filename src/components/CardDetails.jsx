@@ -1,27 +1,15 @@
-// import img1 from"../assets/img1.png";
+let cardDetails = [];
 
-let cardDetails = [
-    {
-        id: 1,
-        title: "Card1",
-        text: "text1",
-        url: "#",
-        button: "Button1"
-    }
-];
-
-let N = 100;
-for (let i=2; i< N; i++) {
+let N = 10;
+for (let i=1; i< N; i++) {
     cardDetails.push({
         id: i,
-        title: "Card"+i,
-        text: "text"+i,
+        title: "Card Title" + i,
+        text: "Card Text " + i + " write something for card",
         url: "#",
-        button: "Button"+i 
+        button: "Button " + i 
     });
 }
-
-
 
 
 export default cardDetails;

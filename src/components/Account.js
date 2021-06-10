@@ -39,7 +39,7 @@ class AccountPage extends Component {
             <MainBanner />
             <div className="div-flex">
               <div>
-                <h2>Your Healthify Profile</h2>
+                <h2>Your Profile</h2>
                 <Table striped bordered hover id="mytable">
                   <tr>
                       <th colspan="1">Name:</th>

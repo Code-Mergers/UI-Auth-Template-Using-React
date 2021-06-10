@@ -20,7 +20,8 @@ class Jumbo extends Component {
               </div>
                <div className="overflow">
                 <p className="jumbo_transform">
-                  <h5 id="mytextjambo"><strong><i>React Template</i></strong></h5>
+                  <h5 id="mytextjambo"><strong>React UI + Firebase Authentication Template By Code Mergers</strong></h5>
+                  <h5 id="mytextjambo"><strong><a href="https://github.com/Code-Mergers" style={{color:"darkblue"}} target="_black">Code Mergers Github Organization</a></strong></h5>
                 </p>
             </div>
           </Jumbotron>
