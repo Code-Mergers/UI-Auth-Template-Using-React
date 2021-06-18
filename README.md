@@ -52,7 +52,7 @@
 - Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-- [Send mail](mailto:sayan.bhatta2017@gmail.com) to code mergers
+- [Send mail](mailto:codemergers.org@gmail.com?subject=User Mail%20&body=Hi, Code Mergers! ) to code mergers
 
 
 ### Hope this will be helpful for your next project
