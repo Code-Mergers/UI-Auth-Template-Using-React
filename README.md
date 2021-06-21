@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/Code-Mergers/UI-Auth-Template-Using-React">
-    <img src="images/logo.png" alt="Logo">
+    <img src="images/CodeMergers-Banner.png" alt="Logo" width=70%>
   </a>
 </p>
 
