@@ -6,7 +6,7 @@ const MainBanner = () => (
     <div style={{marginTop: "110px", marginBottom: "20px"}}>
         <center >
             <Link to={routes.LANDING}>
-                <img src="./CodeMergersLogo.png" alt="Brand Logo" height={"70px"} />
+                <img src="./CodeMergers-Banner.png" alt="Brand Logo" height={"70px"} />
             </Link>
             <hr/>
         </center> 
