@@ -9,13 +9,14 @@ class Cards extends Component{
                <div className="row">
                     {cardDetails.map( oneCard => 
                         <div className="col-md-4 individual_card" >
-                            <Card   key={oneCard.id}
-                                    image={new URL("https://source.unsplash.com/800x500")}
-                                    title={oneCard.title}
-                                    text={oneCard.text}
-                                    url={oneCard.url}
-                                    button={oneCard.button}
-                                    cardid={oneCard.id} />
+                            <Card   
+                                key={oneCard.id}
+                                image={new URL("https://source.unsplash.com/800x500")}
+                                title={oneCard.title}
+                                text={oneCard.text}
+                                url={oneCard.url}
+                                button={oneCard.button}
+                                cardid={oneCard.id} />
                         </div>)
                     }
                </div>
