@@ -1,4 +1,6 @@
 build/
 node_modules/
+
 src/firebase/env.js
+
 .idea
