@@ -31,6 +31,7 @@
           appId: "APP_ID",
           measurementId: "G-MEASUREMENT_ID",
       };
+    ```
   - Paste your config object in `env.js` file, present in `/src/firebase/`
 - Now we can run this site locally 
 - To see the site in your localhost run this command in your terminal
