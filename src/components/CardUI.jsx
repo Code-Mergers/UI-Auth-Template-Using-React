@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const CardUI = props => {
     return (
@@ -11,7 +12,9 @@ const CardUI = props => {
            <p className ="card-text text-secondary">
                {props.text}
            </p>
-           <a href={'/card/' + props.url} className="btn btn-outline-primary">{props.button}</a>
+           <Link className="btn btn-outline-primary" to={'/card/' + props.url}>
+           {props.button}
+           </Link>
           </div>
         </div>
     )
