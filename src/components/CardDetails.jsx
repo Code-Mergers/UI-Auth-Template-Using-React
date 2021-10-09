@@ -1,6 +1,6 @@
 let cardDetails = [];
 
-let N = 10;
+let N = 20;
 for (let i=1; i< N; i++) {
     cardDetails.push({
         id: i,

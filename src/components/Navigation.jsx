@@ -14,16 +14,16 @@ function Navigation() {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <NavDropdown title={<Button>Features</Button>} id="collasible-nav-dropdown">
-                      {
-                        cardDetails.map(oneCard => <NavDropdown.Item href={oneCard.url}>
-                        {oneCard.title}</NavDropdown.Item> )
-                      }
-                    </NavDropdown>
-                  <Nav.Link href="#ourfeedback">
+                  <NavDropdown title={<Button>Features</Button>} id="collasible-nav-dropdown">
+                    {
+                      cardDetails.map(oneCard => <NavDropdown.Item href={'/card/' + oneCard.url}>
+                      {oneCard.title}</NavDropdown.Item> )
+                    }
+                  </NavDropdown>
+                  <Nav.Link href='#ourfooter'>
                     <Button>Feedback</Button>
                   </Nav.Link>
-                  <Nav.Link href="#ourfooter">
+                  <Nav.Link href="https://code-mergers-org.netlify.app/">
                     <Button>About Us</Button>
                   </Nav.Link>
                 </Nav>
