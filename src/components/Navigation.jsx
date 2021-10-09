@@ -16,8 +16,11 @@ function Navigation() {
                 <Nav className="mr-auto">
                   <NavDropdown title={<Button>Features</Button>} id="collasible-nav-dropdown">
                     {
-                      cardDetails.map(oneCard => <NavDropdown.Item href={'/card/' + oneCard.url}>
-                      {oneCard.title}</NavDropdown.Item> )
+                      cardDetails.map(oneCard => <NavDropdown.Item>
+                        <Link to={'/card/' + oneCard.url} style={{ color: 'black', textDecoration: 'none' }}>
+                          {oneCard.title}
+                        </Link>
+                      </NavDropdown.Item> )
                     }
                   </NavDropdown>
                   <Nav.Link href='#ourfooter'>
