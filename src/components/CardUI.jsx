@@ -11,7 +11,7 @@ const CardUI = props => {
            <p className ="card-text text-secondary">
                {props.text}
            </p>
-           <a href={props.url} className="btn btn-outline-primary">{props.button}</a>
+           <a href={'/card/' + props.url} className="btn btn-outline-primary">{props.button}</a>
           </div>
         </div>
     )

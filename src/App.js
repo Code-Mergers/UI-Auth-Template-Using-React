@@ -9,6 +9,7 @@ import PasswordForgetPage from "./components/PasswordForget";
 import AccountPage from "./components/Account";
 import LandingPage from "./components/Landing";
 import withAuthentication from "./components/withAuthentication";
+import CardPage from './components/CardPage';
 
 const App = () => (
   <BrowserRouter>
@@ -20,6 +21,7 @@ const App = () => (
         path={routes.PASSWORD_FORGET}
         component={PasswordForgetPage}
       />
+      <Route exact path={routes.CARD} component={CardPage} />
       {/* <Route exact path={routes.HOME} component={HomePage} /> */}
       <Route exact path={routes.ACCOUNT} component={AccountPage} />
   </BrowserRouter>
